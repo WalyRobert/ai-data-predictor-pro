@@ -1,5 +1,7 @@
 # AI Data Predictor Pro
 
+![AI Data Predictor Pro — modelos preditivos e análise de dados](ai-data-predictor-pro-banner.jpeg)
+
 Laboratório educacional de classificação com árvore de decisão, métricas multiclasse e exploração de correlações. Autor: Waly Robert. Derivado do projeto do autor no Google AI Studio; esta edição mantém o classificador e corrige avaliação, entrada de dados e execução fora do Studio.
 
 ## Executar
@@ -55,4 +57,5 @@ Após `npm ci`, execute `npm run diagnostico` para verificar Node, dependências
 ## Benchmark de referência
 
 O código desta edição foi avaliado com os 150 registros do dataset público Iris (UCI Machine Learning Repository, https://archive.ics.uci.edu/dataset/53/iris), semente 42: acurácia de 90% no holdout de 30 registros e média de 93,33% em cinco folds estratificados (desvio de 3,65 pontos percentuais). Referência da classe majoritária: 33,33%. São resultados neste dataset e nessas divisões, sem garantia para outro domínio. O dataset não acompanha o código.
+
 
